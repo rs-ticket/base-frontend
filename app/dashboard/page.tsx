@@ -238,7 +238,7 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">60%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ "width": "60%" }}></div>
+                                                            <progress className="progress-bar bg-gradient-info" value="60" max="100"> 32% </progress>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -271,7 +271,8 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">100%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ "width": "100%" }}></div>
+                                                        <progress className="progress-bar bg-gradient-info" value="60" max="100"> 32% </progress>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -304,7 +305,8 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">30%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style={{ "width": "30%" }}></div>
+                                                        <progress className="progress-bar bg-gradient-info" value="60" max="100"> 32% </progress>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -337,7 +339,8 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">0%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" style={{ "width": "0%" }}></div>
+                                                        <progress className="progress-bar bg-gradient-info" value="60" max="100"> 32% </progress>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -370,7 +373,8 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">80%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style={{ "width": "80%;" }}></div>
+                                                        <progress className="progress-bar bg-gradient-info" value="60" max="100"> 32% </progress>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -403,7 +407,8 @@ export default function Dashboard() {
                                                     <span className="me-2 text-xs font-weight-bold">100%</span>
                                                     <div>
                                                         <div className="progress">
-                                                            <div className="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ "width": "100%;" }}></div>
+                                                        <progress className="progress-bar bg-gradient-info" value="100" max="100"> 100% </progress>
+
                                                         </div>
                                                     </div>
                                                 </div>
