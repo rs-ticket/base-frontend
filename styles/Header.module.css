@@ -1,0 +1,72 @@
+
+.headerContainer {
+  z-index: 999;
+  background-color: var(--white);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEAEA;
+
+}
+.toggleSideNav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+.logo a {
+  display: flex;
+  alignItems: center;
+  fontWeight: 400;
+  fontSize: 22px;
+  lineHeight: 1.2;
+  color: #000000;
+    }
+.logo a img {
+  margin: 0 15px 0 0
+}
+.userInfo {
+  display: flex
+}
+.menu ul{
+  display: flex;
+  alignItems: center;
+  margin: -10px
+}
+.menu ul li {
+  margin: 10px;
+}
+.menu ul li a {
+  cursor: pointer;
+  padding: 8px 10px 12px;
+  lineHeight: 1;
+  borderRadius: 4px
+}
+.activeLink {
+  backgroundColor: PrimaryColors[500];
+  color: #ffffff
+}
+.mobileHeader {
+  padding: 10px;
+  flex: 1;
+  align-items: center;
+ display: none;
+}
+
+.mobileMenu {
+  width: 210px;
+  height: 100vh;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flexDirection: column;
+  zIndex: 99;
+  /* backgroundImage: `url(${LocalImages.MOBILE_MENU})`; */
+  backgroundRepeat: no-repeat;
+  transition: 0.3s ease-in-out all
+}
