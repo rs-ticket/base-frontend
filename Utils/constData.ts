@@ -1,10 +1,4 @@
 import LocalImages from "./images"
-interface UserNavigation {
-  name: string;
-  path: string;
-  activeIcon: any;
-  inactiveIcon: any;
-}
 
 interface AdminNavigation {
   name: string;
@@ -24,20 +18,26 @@ interface SocialIcons {
 }
 
 
-export const UserNavigation: UserNavigation[] = [
-  {
-    name: "Home",
-    path: "/home",
-    activeIcon: '',
-    inactiveIcon: ''
-  }
-];
-
 export const adminNavigation: AdminNavigation[] = [
   {
-    name: 'About us',
-    path: '/admin/about',
-    icon: 'about'
+    name: 'Dashboard',
+    path: '/',
+    icon: ''
+  },
+  {
+    name: 'About',
+    path: '/about',
+    icon: ''
+  },
+  {
+    name: 'Tickets',
+    path: '/tickets',
+    icon: ''
+  },
+  {
+    name: 'Services',
+    path: '/services',
+    icon: ''
   }
 ]
 
