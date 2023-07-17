@@ -27,7 +27,7 @@ function Header() {
       adminNavigation.map((link: any, index: any) => {
         return(
           
-          <Link href={link.path}>{link.name}</Link>
+          <Link key={index} href={link.path}>{link.name}</Link>
        
         
         )
